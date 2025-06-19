@@ -1,0 +1,250 @@
+.header {
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  align-items: center;
+  gap: 24px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: #138808;
+  margin-right: 32px;
+}
+
+.main-nav ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #222;
+}
+
+.search-block input {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.lang-switch {
+  margin-left: auto; 
+  font-size: 14px;
+  color: #706b6b;
+}
+.person-header {
+  display: flex;
+  padding: 60px 0;
+  background-color: #f7f7f7;
+}
+
+.person-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.person-header .info {
+  max-width: 60%;
+}
+
+.person-header .tag {
+  font-size: 14px;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.person-header .full-name {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #1C1C1C;
+}
+
+.person-header .position {
+  font-size: 18px;
+  color: #666;
+}
+
+.person-header .photo img {
+  width: 500px;
+  height: auto;
+}
+.rich-text {
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+.rich-text p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  max-width: 1300px;
+}
+.career {
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+.career .container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 24px;
+
+  /* Вот это ключ */
+  display: block !important;     /* 💣 Гарантированно убивает flex */
+}
+
+.newsletter {
+  background-color: #f7f7f7;
+  padding: 60px 0;
+}
+
+.newsletter-box {
+  background-color: white;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.newsletter-box .text {
+  max-width: 60%;
+}
+
+.newsletter-box h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.newsletter-box p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 12px;
+}
+
+.subscribe-form input {
+  padding: 10px 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.subscribe-form button {
+  padding: 10px 20px;
+  background-color: #4cea8e;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+.subscribe-form button:hover {
+  background-color: #e50000;
+}
+
+.footer {
+  color: #fff;
+  padding: 40px 0 20px;
+  font-size: 14px;
+  
+}
+.footer-logo p {
+  color: #222;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 32px;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-logo img {
+  width: 140px;
+  margin-bottom: 8px;
+}
+
+.text-logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer-links {
+  display: flex;
+  gap: 60px;
+}
+
+.footer-links h4 {
+  color: #c5b7b7;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 6px;
+}
+
+.footer-links a {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ddd;
+  margin-top: 32px;  
+  padding-top: 16px;
+  text-align: center;
+  font-size: 13px;
+  color: #777;
+}
